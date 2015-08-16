@@ -153,8 +153,7 @@ func connectToFreenodeIpfs(con *hb.IrcCon) {
 	con.AddTrigger(EatEverything)
 	con.Start()
 	con.Join("#ipfs")
-	con.Join("#ip-berlin")
-	con.Join("#ip-seattle")
+	con.Join("#camp")
 
 	for _ = range con.Incoming {
 	}
